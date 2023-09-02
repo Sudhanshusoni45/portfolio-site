@@ -1,0 +1,17 @@
+.Wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 3rem;
+}
+.CardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+.Heading {
+  font-size: 4rem;
+}

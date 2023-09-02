@@ -1,8 +1,12 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 62.5%;
+  color: white;
+
+  --description-grey: rgb(113 113 122 / 1);
+  --white: #e5e7eb;
+  --black: black;
 }
 body {
   font-family: "Cal Sans";
-  color: white;
 }

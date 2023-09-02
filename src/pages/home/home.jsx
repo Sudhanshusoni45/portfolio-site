@@ -3,9 +3,11 @@ import { useRef } from "react";
 import styles from "./home.module.css";
 import Starback from "starback";
 import useWindowDimensions from "../../hooks/useWindowWidth";
+import ProjectComponent from "../../components/projects/projectComponent/projectComponent";
+import Contact from "../../components/contact/contact";
 
 const Home = () => {
-  const { width, height } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const CanvasComponent = () => {
     const canvasRef = useRef(null);
 
@@ -15,15 +17,16 @@ const Home = () => {
 
         new Starback(canvas, {
           type: "dot",
-          quantity: 60,
+          quantity: 70,
           direction: 180,
-          backgroundColor: "#070708",
+          // backgroundColor: "#070708",
+          backgroundColor: "#161618",
           randomOpacity: true,
           starSize: [0, 1],
           speed: [0, 0.3],
           width,
-          height,
-          starColor: "grey",
+          height: 5000,
+          starColor: "white",
         });
       }
     }, []);
@@ -32,17 +35,24 @@ const Home = () => {
   };
 
   return (
-    <div className={styles.Wrapper}>
-      <div className={styles.Navbar}>
-        <span className={styles.NavbarText}>Projects</span>
-        <span className={styles.NavbarText}>Contacts</span>
-      </div>
+    <>
       <CanvasComponent />
-      <h1 className={styles.NameHeading}>sudhanshu</h1>
-      <p className={styles.Note}>
-        Hi, I am Sudhanshu I am a Freelance Frontend Developer cum wizard!
-      </p>
-    </div>
+      <div>
+        <div className={styles.Wrapper}>
+          <div className={styles.Navbar}>
+            <span className={styles.NavbarText}>Projects</span>
+            <span className={styles.NavbarText}>Contacts</span>
+          </div>
+          <h1 className={styles.NameHeading}>sudhanshu</h1>
+          <p className={styles.Note}>
+            Hi, I am Sudhanshu I am a Freelance Frontend Developer cum wizard!
+          </p>
+        </div>
+        {/* <CanvasComponent /> */}
+        <ProjectComponent />
+        <Contact />
+      </div>
+    </>
   );
 };
 

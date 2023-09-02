@@ -1,0 +1,16 @@
+.Wrapper {
+  width: 43rem;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Heading {
+  font-size: 4rem;
+}
+.Description {
+  color: var(--description-grey);
+  font-size: 1.5rem;
+}
