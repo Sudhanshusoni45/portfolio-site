@@ -1,6 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 62.5%;
+  letter-spacing: 1px;
   color: white;
 
   --description-grey: rgb(113 113 122 / 1);

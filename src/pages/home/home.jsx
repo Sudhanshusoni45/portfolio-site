@@ -24,7 +24,8 @@ const Home = () => {
           randomOpacity: true,
           starSize: [0, 1],
           speed: [0, 0.3],
-          width,
+          // -17 just to get rid of x scrollbar
+          width: width - 17,
           height: 5000,
           starColor: "white",
         });

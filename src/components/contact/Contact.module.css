@@ -16,7 +16,7 @@
   gap: 0.5rem;
 }
 .Heading {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .Input {
   border: 2px solid var(--white);
@@ -39,12 +39,14 @@
   font-size: 1.5rem;
 }
 .Btn {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   background-color: var(--white);
   border-radius: 8px;
   display: flex;
-  height: 4rem;
+  height: 4.5rem;
   color: var(--black);
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
