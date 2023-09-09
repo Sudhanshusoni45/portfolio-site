@@ -5,6 +5,7 @@ import Starback from "starback";
 import useWindowDimensions from "../../hooks/useWindowWidth";
 import ProjectComponent from "../../components/projects/projectComponent/projectComponent";
 import ContactSection from "../../components/contact/contactSection/ContactSection";
+import TestimonialsSection from "../../components/testimonials/testimonialsSection/TestimonialsSection";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -49,8 +50,8 @@ const Home = () => {
             Hi, I am Sudhanshu I am a Freelance Frontend Developer cum wizard!
           </p>
         </div>
-        {/* <CanvasComponent /> */}
         <ProjectComponent />
+        <TestimonialsSection />
         <ContactSection />
       </div>
     </>
