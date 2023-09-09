@@ -4,7 +4,7 @@ import styles from "./home.module.css";
 import Starback from "starback";
 import useWindowDimensions from "../../hooks/useWindowWidth";
 import ProjectComponent from "../../components/projects/projectComponent/projectComponent";
-import Contact from "../../components/contact/contact";
+import ContactSection from "../../components/contact/contactSection/ContactSection";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
         {/* <CanvasComponent /> */}
         <ProjectComponent />
-        <Contact />
+        <ContactSection />
       </div>
     </>
   );

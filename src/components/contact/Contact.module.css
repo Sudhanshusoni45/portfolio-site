@@ -1,9 +1,16 @@
 .Wrapper {
-  height: 100vh;
+  height: 60rem;
+  width: 135rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 3rem;
+  background-color: var(--background-black);
+  border-radius: 12px;
+  justify-content: space-around;
+
+  margin: 0 auto;
+  padding: 8rem 4rem;
+  box-shadow: rgba(201, 201, 201, 0.2) 0px 7px 50px 0px;
 }
 .FormWrapper {
   display: flex;
@@ -16,14 +23,15 @@
   gap: 0.5rem;
 }
 .Heading {
-  font-size: 5rem;
+  font-size: 3rem;
+  line-height: 4rem;
 }
 .Input {
   border: 2px solid var(--white);
   color: var(--white);
   border-radius: 8px;
   padding: 0.5rem;
-  width: 51rem;
+  width: 45rem;
   height: 4rem;
   font-size: 1.5rem;
 }
@@ -49,4 +57,30 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+/* contact info */
+.InfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  font-size: 2rem;
+}
+.ContactInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-self: flex-start;
+}
+.ContactInfo {
+  display: flex;
+  flex-direction: column;
+}
+.IconWrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+.Icon {
+  width: 3rem;
 }
