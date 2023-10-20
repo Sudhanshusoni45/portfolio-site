@@ -1,3 +1,4 @@
+import ShootingStars from "../../shooting_stars/shootingStars";
 import ProjectCard from "../projectCard/projectCard";
 import styles from "./ProjectComponent.module.css";
 

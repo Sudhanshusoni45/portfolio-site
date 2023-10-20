@@ -71,6 +71,7 @@
   flex-direction: column;
   gap: 2rem;
   align-self: flex-start;
+  height: 100%;
 }
 .ContactInfo {
   display: flex;
@@ -83,4 +84,10 @@
 }
 .Icon {
   width: 3rem;
+}
+.SocialsWrapper {
+  display: flex;
+  gap: 1rem;
+  justify-self: flex-end;
+  margin-top: auto;
 }

@@ -1,6 +1,9 @@
 import email from "../../assets/contact/email.png";
 import phone from "../../assets/contact/phone.png";
 import location from "../../assets/contact/location.png";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareGithub } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
@@ -27,6 +30,35 @@ const Contact = () => {
             <img className={styles.Icon} src={location} alt="location" />
             <span>Bengaluru, India</span>
           </div>
+        </div>
+        <div className={styles.SocialsWrapper}>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/sudhanshusoni__"
+          >
+            <FaSquareXTwitter
+              fontSize={"3.2rem"}
+              style={{ cursor: "pointer" }}
+            />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Sudhanshusoni45"
+          >
+            <FaSquareGithub fontSize={"3.2rem"} style={{ cursor: "pointer" }} />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/sudhanshusoni_"
+          >
+            <FaInstagramSquare
+              fontSize={"3.2rem"}
+              style={{ cursor: "pointer" }}
+            />
+          </a>
         </div>
       </div>
       <div>

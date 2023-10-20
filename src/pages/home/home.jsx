@@ -6,6 +6,7 @@ import useWindowDimensions from "../../hooks/useWindowWidth";
 import ProjectComponent from "../../components/projects/projectComponent/projectComponent";
 import ContactSection from "../../components/contact/contactSection/ContactSection";
 import TestimonialsSection from "../../components/testimonials/testimonialsSection/TestimonialsSection";
+import ShootingStars from "../../components/shooting_stars/shootingStars";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -40,10 +41,13 @@ const Home = () => {
     <>
       <CanvasComponent />
       <div>
+        <ShootingStars />
         <div className={styles.Wrapper}>
           <div className={styles.Navbar}>
             <span className={styles.NavbarText}>Projects</span>
-            <span className={styles.NavbarText}>Contacts</span>
+            <a href="#contact">
+              <span className={styles.NavbarText}>Contacts</span>
+            </a>
           </div>
           <h1 className={styles.NameHeading}>sudhanshu</h1>
           <p className={styles.Note}>
