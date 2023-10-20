@@ -44,7 +44,7 @@ const Home = () => {
         <ShootingStars />
         <div className={styles.Wrapper}>
           <div className={styles.Navbar}>
-            <span className={styles.NavbarText}>Projects</span>
+            <span className={styles.NavbarText}>About</span>
             <a href="#contact">
               <span className={styles.NavbarText}>Contacts</span>
             </a>
@@ -54,7 +54,7 @@ const Home = () => {
             Hi, I am Sudhanshu I am a Freelance Frontend Developer cum wizard!
           </p>
         </div>
-        <ProjectComponent />
+        {/* <ProjectComponent /> */}
         <TestimonialsSection />
         <ContactSection />
       </div>
