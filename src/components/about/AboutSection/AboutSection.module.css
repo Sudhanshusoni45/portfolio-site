@@ -1,0 +1,14 @@
+.Wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  position: relative;
+}
+.AboutMeHeading {
+}
+.Image {
+  height: 100vh;
+  border-radius: 12px;
+}

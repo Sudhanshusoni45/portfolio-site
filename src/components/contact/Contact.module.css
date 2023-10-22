@@ -1,0 +1,93 @@
+.Wrapper {
+  height: 60rem;
+  width: 135rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  background-color: var(--background-black);
+  border-radius: 12px;
+  justify-content: space-around;
+
+  margin: 0 auto;
+  padding: 8rem 4rem;
+  box-shadow: rgba(201, 201, 201, 0.2) 0px 7px 50px 0px;
+}
+.FormWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.InputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.Heading {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.Input {
+  border: 2px solid var(--white);
+  color: var(--white);
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 45rem;
+  height: 4rem;
+  font-size: 1.5rem;
+}
+.TextArea {
+  border: 2px solid var(--white);
+  color: var(--white);
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  height: 10rem;
+}
+.Label {
+  font-size: 1.5rem;
+}
+.Btn {
+  font-size: 1.8rem;
+  font-weight: 500;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  height: 4.5rem;
+  color: var(--black);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* contact info */
+.InfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  font-size: 2rem;
+}
+.ContactInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-self: flex-start;
+  height: 100%;
+}
+.ContactInfo {
+  display: flex;
+  flex-direction: column;
+}
+.IconWrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+.Icon {
+  width: 3rem;
+}
+.SocialsWrapper {
+  display: flex;
+  gap: 1rem;
+  justify-self: flex-end;
+  margin-top: auto;
+}
