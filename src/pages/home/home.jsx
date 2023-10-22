@@ -3,10 +3,10 @@ import { useRef } from "react";
 import styles from "./home.module.css";
 import Starback from "starback";
 import useWindowDimensions from "../../hooks/useWindowWidth";
-import ProjectComponent from "../../components/projects/projectComponent/projectComponent";
 import ContactSection from "../../components/contact/contactSection/ContactSection";
 import TestimonialsSection from "../../components/testimonials/testimonialsSection/TestimonialsSection";
 import ShootingStars from "../../components/shooting_stars/shootingStars";
+import AboutSection from "../../components/about/AboutSection/AboutSection";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -55,6 +55,7 @@ const Home = () => {
           </p>
         </div>
         {/* <ProjectComponent /> */}
+        <AboutSection />
         <TestimonialsSection />
         <ContactSection />
       </div>

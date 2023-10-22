@@ -1,0 +1,21 @@
+.Wrapper {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.DescriptionWrapper {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-black);
+  padding: 2rem;
+  border-radius: 8px;
+  width: 50rem;
+  text-align: center;
+}
+.Description {
+  color: var(--description-grey);
+  font-size: 1.5rem;
+  width: 39rem;
+  text-align: center;
+}
