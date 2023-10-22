@@ -3,19 +3,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  bottom: -100px;
 }
-.DescriptionWrapper {
+.DescriptionCard {
   display: flex;
   justify-content: center;
   background-color: var(--background-black);
-  padding: 2rem;
+  padding: 2rem 3rem;
   border-radius: 8px;
-  width: 50rem;
+  width: 64rem;
   text-align: center;
+
+  transition: transform 0.2s;
+  box-shadow: rgba(201, 201, 201, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
 }
+
+.DescriptionCard:hover {
+  transform: scale(1.1);
+  /* border: 1px solid var(--white); */
+}
+
 .Description {
   color: var(--description-grey);
   font-size: 1.5rem;
-  width: 39rem;
   text-align: center;
 }

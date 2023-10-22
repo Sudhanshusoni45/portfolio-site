@@ -12,3 +12,6 @@
 body {
   font-family: "Cal Sans";
 }
+html {
+  scroll-behavior: smooth;
+}

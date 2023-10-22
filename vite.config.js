@@ -8,5 +8,10 @@ export default defineConfig({
     sourcemap: true, // Enable source maps for debugging.
     minify: "esbuild", // Use esbuild for minification.
   },
+  css: {
+    modules: {
+      generateScopedName: "[name]__[local]", // This configuration disables obfuscation
+    },
+  },
   // Other configuration options...
 });

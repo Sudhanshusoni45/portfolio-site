@@ -4,9 +4,11 @@
   flex-direction: column;
   gap: 1rem;
   align-items: center;
+  position: relative;
 }
 .AboutMeHeading {
 }
 .Image {
-  position: absolute;
+  height: 100vh;
+  border-radius: 12px;
 }
