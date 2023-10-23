@@ -5,7 +5,7 @@ import Starback from "starback";
 import useWindowDimensions from "../../hooks/useWindowWidth";
 import ContactSection from "../../components/contact/contactSection/ContactSection";
 import TestimonialsSection from "../../components/testimonials/testimonialsSection/TestimonialsSection";
-import ShootingStars from "../../components/Shooting_stars/ShootingStars";
+import ShootingStars from "../../components/shootingStars/ShootingStars";
 import AboutSection from "../../components/about/AboutSection/AboutSection";
 
 const Home = () => {
