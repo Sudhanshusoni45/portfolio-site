@@ -4,7 +4,7 @@ import styles from "./Testimonials.module.css";
 const Testimonials = () => {
   const testimonials = [
     {
-      heading: "Amazing!",
+      heading: "Professional!",
       description:
         "Sudhanshu is really professional and commited in his work. He’ll go above and beyond to understand the project and deliver on commitments. Forever seeker and learner.  thank him to be crucial part of YBM in his early days.",
       name: "Pranjal Mishra",
