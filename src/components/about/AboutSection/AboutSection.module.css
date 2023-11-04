@@ -69,3 +69,13 @@
 .StackImg {
   width: 3rem;
 }
+@media screen and (max-width: 480px) {
+  .MoodsWrapper {
+    flex-direction: column;
+    gap: 15rem;
+  }
+  .MoodsImg {
+    width: 35rem;
+    height: 41rem;
+  }
+}

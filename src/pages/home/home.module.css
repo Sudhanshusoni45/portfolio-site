@@ -33,3 +33,11 @@
 .NavbarText {
   cursor: pointer;
 }
+@media screen and (max-width: 480px) {
+  .Wrapper {
+    text-align: center;
+  }
+  .NameHeading {
+    font-size: 5rem;
+  }
+}

@@ -55,7 +55,7 @@ const AboutSection = () => {
               <span className={styles.StackText}>Pizza</span>
             </div>
             <div className={styles.IconWrapper}>
-              <img className={styles.StackImg} src={Stars} alt="typeScript" />
+              <img className={styles.StackImg} src={Stars} alt="stars" />
               <span className={styles.StackText}>Great company</span>
             </div>
           </div>
