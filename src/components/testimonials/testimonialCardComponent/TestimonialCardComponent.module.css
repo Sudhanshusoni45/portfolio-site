@@ -45,3 +45,11 @@
 .Designation {
   color: var(--description-grey);
 }
+@media screen and (max-width: 480px) {
+  .Wrapper {
+    width: 35rem;
+  }
+  .Description {
+    width: 30rem;
+  }
+}
