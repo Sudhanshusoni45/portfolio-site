@@ -1,5 +1,5 @@
-import Contact from "../contact";
 import styles from "./ContactSection.module.css";
+import Contact from "../Contact";
 
 const ContactSection = () => {
   return (
