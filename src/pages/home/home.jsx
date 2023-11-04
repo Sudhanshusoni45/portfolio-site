@@ -21,7 +21,6 @@ const Home = () => {
           type: "dot",
           quantity: 70,
           direction: 180,
-          // backgroundColor: "#070708",
           backgroundColor: "#161618",
           randomOpacity: true,
           starSize: [0, 1],

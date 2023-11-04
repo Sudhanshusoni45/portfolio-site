@@ -1,4 +1,4 @@
-import TestimonialCardComponent from "../testimonialCardComponent/testimonialCardComponent";
+import TestimonialCardComponent from "../testimonialCardComponent/TestimonialCardComponent";
 import styles from "./Testimonials.module.css";
 
 const Testimonials = () => {
