@@ -7,7 +7,7 @@ import TypeScriptIcon from "../../../assets/about/TypeScriptIcon.svg";
 
 import Beer from "../../../assets/about/Beer.png";
 import Pizza from "../../../assets/about/Pizza.png";
-import People from "../../../assets/about/People.png";
+import Stars from "../../../assets/about/Stars.png";
 
 import styles from "./AboutSection.module.css";
 
@@ -55,7 +55,7 @@ const AboutSection = () => {
               <span className={styles.StackText}>Pizza</span>
             </div>
             <div className={styles.IconWrapper}>
-              <img className={styles.StackImg} src={People} alt="typeScript" />
+              <img className={styles.StackImg} src={Stars} alt="typeScript" />
               <span className={styles.StackText}>Great company</span>
             </div>
           </div>
