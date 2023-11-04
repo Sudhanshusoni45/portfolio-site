@@ -8,3 +8,8 @@
 .Heading {
   font-size: 5rem;
 }
+@media screen and (max-width: 480px) {
+  .Wrapper {
+    margin-top: 20rem;
+  }
+}
