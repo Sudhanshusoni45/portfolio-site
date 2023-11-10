@@ -18,10 +18,10 @@ const Contact = () => {
           <h1 className={styles.Heading}>Let's Discuss</h1>
         </div>
         <div className={styles.InfoWrapper}>
-          <div className={styles.IconWrapper}>
+          {/* <div className={styles.IconWrapper}>
             <img className={styles.Icon} src={phone} alt="phone" />
             <span>+918770306377</span>
-          </div>
+          </div> */}
           <div className={styles.IconWrapper}>
             <img className={styles.Icon} src={email} alt="email" />
             <span>sudhanshusoni45@gmail.com</span>
