@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import { useRef } from "react";
 import styles from "./home.module.css";
 import Starback from "starback";
-import useWindowDimensions from "../../hooks/useWindowWidth";
 import ContactSection from "../../components/contact/contactSection/ContactSection";
 import TestimonialsSection from "../../components/testimonials/testimonialsSection/TestimonialsSection";
-import ShootingStars from "../../components/shooting_stars/shootingStars";
+import ShootingStars from "../../components/shootingStars/ShootingStars";
 import AboutSection from "../../components/about/AboutSection/AboutSection";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -21,14 +21,13 @@ const Home = () => {
           type: "dot",
           quantity: 70,
           direction: 180,
-          // backgroundColor: "#070708",
           backgroundColor: "#161618",
           randomOpacity: true,
           starSize: [0, 1],
           speed: [0, 0.3],
           // -17 just to get rid of x scrollbar
-          width: width - 17,
-          height: 5000,
+          width: width > 480 ? width - 17 : width,
+          height: width > 480 ? 5000 : 4600,
           starColor: "white",
         });
       }

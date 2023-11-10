@@ -4,3 +4,11 @@
   column-gap: 3rem;
   row-gap: 3rem;
 }
+
+@media screen and (max-width: 480px) {
+  .Wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
