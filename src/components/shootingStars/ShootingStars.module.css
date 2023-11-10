@@ -281,3 +281,10 @@
     transform: rotate(405deg);
   }
 }
+
+@media screen and (max-width: 480px) {
+  .night {
+    left: -232px;
+    top: 305px;
+  }
+}

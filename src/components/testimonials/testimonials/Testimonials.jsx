@@ -10,6 +10,7 @@ const Testimonials = () => {
       name: "Pranjal Mishra",
       image:
         "https://www.pranjalmishra.wtf/assets/blog/authors/Pranjal%20Mishra.png",
+      backlink: "https://www.pranjalmishra.wtf/",
       designation: "Founder @YBM",
     },
     {
