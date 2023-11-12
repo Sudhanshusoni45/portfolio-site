@@ -52,7 +52,7 @@ const Home = () => {
           </div>
           <h1 className={styles.NameHeading}>sudhanshu</h1>
           <p className={styles.Note}>
-            Hi, I am Sudhanshu I am a Freelance Frontend Developer cum wizard!
+            Hi, I am Sudhanshu a Freelance Frontend Developer cum wizard!
           </p>
         </div>
         {/* <ProjectComponent /> */}
