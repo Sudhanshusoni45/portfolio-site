@@ -11,6 +11,9 @@
 }
 body {
   font-family: "Cal Sans";
+  margin: 0 auto;
+  padding: 0 ;
+  overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
