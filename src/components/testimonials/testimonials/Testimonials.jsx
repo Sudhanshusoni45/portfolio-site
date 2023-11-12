@@ -24,7 +24,7 @@ const Testimonials = () => {
       backlink: "https://www.linkedin.com/in/vp5h/",
     },
     {
-      heading: "Right way!",
+      heading: "Impressive!",
       description:
         "Sudhanshu is someone I'd like to collaborate with more. We've worked on a few projects together, and his skills are impressive. The quality of his work is extraordinary, as he puts in effort and ideas as if he's building the project for himself.",
       name: "Anmol singh bhatia",
