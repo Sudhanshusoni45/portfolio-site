@@ -68,6 +68,13 @@
 .StackImg {
   width: 3rem;
 }
+@media screen and (max-width: 1570px) {
+  .MoodsImg {
+    width: 54rem;
+    height: 65rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .MoodsWrapper {
     flex-direction: column;
@@ -76,5 +83,8 @@
   .MoodsImg {
     width: 35rem;
     height: 41rem;
+  }
+  .StackWrapper {
+    width: 26rem;
   }
 }
