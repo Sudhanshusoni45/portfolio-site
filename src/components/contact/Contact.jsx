@@ -1,14 +1,18 @@
 import email from "../../assets/contact/email.png";
-import phone from "../../assets/contact/phone.png";
+// import phone from "../../assets/contact/phone.png";
 import location from "../../assets/contact/location.png";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import styles from "./Contact.module.css";
+import toast from "react-hot-toast";
 
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
+    toast.success("Response submitted, you will hear from me soon!", {
+      duration: 6000,
+    });
   };
   return (
     <div className={styles.Wrapper}>
@@ -73,7 +77,13 @@ const Contact = () => {
             <label className={styles.Label} htmlFor="email">
               Email
             </label>
-            <input type="text" className={styles.Input} required />
+            <input type="email" className={styles.Input} required />
+          </div>
+          <div className={styles.InputWrapper}>
+            <label className={styles.Label} htmlFor="phone">
+              Phone no
+            </label>
+            <input type="number" className={styles.Input} required />
           </div>
           <div className={styles.InputWrapper}>
             <label className={styles.Label} htmlFor="firmName">
