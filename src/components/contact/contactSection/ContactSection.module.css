@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  padding-top: 10rem;
 }
 .Heading {
   font-size: 5rem;

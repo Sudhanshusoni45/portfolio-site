@@ -5,6 +5,7 @@
   gap: 3rem;
   align-items: center;
   position: relative;
+  padding-top: 1rem;
 }
 .MoodsWrapper {
   display: flex;
@@ -16,9 +17,7 @@
 .ChillMoodWrapper {
   position: relative;
 }
-/* .Image {
-  height: 100vh;
-} */
+
 .MoodText {
   position: absolute;
   font-size: 4rem;

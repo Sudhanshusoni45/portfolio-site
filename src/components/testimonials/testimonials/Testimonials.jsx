@@ -21,6 +21,7 @@ const Testimonials = () => {
       image:
         "https://pbs.twimg.com/profile_images/1515299473227886592/ytqdS7ys_400x400.jpg",
       designation: "Software Engineer @Prodigal",
+      backlink: "https://www.linkedin.com/in/vp5h/",
     },
     {
       heading: "Right way!",
@@ -30,6 +31,7 @@ const Testimonials = () => {
       image:
         "https://media.licdn.com/dms/image/C5603AQFZieZETKQumQ/profile-displayphoto-shrink_800_800/0/1661393664905?e=1704326400&v=beta&t=kSaezY3MS75oI9iJ_Ii3tXPDyXvXlYVpcCl3DSNKfXY",
       designation: "Software Engineer @Plane.so",
+      backlink: "https://www.linkedin.com/in/anmolbhatia1001/",
     },
   ];
 

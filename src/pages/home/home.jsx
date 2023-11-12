@@ -27,7 +27,7 @@ const Home = () => {
           speed: [0, 0.3],
           // -17 just to get rid of x scrollbar
           width: width > 480 ? width - 17 : width,
-          height: width > 480 ? 5000 : 4600,
+          height: width > 480 ? 4500 : 4600,
           starColor: "white",
         });
       }
@@ -43,7 +43,9 @@ const Home = () => {
         <ShootingStars />
         <div className={styles.Wrapper}>
           <div className={styles.Navbar}>
-            <span className={styles.NavbarText}>About</span>
+            <a href="#about">
+              <span className={styles.NavbarText}>About</span>
+            </a>
             <a href="#contact">
               <span className={styles.NavbarText}>Contacts</span>
             </a>

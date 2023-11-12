@@ -13,7 +13,7 @@ import styles from "./AboutSection.module.css";
 
 const AboutSection = () => {
   return (
-    <div className={styles.Wrapper}>
+    <div className={styles.Wrapper} id="about">
       <h1 className={`Heading`}>I only have two moods</h1>
       <div className={styles.MoodsWrapper}>
         <div className={styles.WorkMoodWrapper}>
