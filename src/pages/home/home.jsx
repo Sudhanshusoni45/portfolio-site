@@ -3,10 +3,11 @@ import { useRef } from "react";
 import styles from "./home.module.css";
 import Starback from "starback";
 import ContactSection from "../../components/contact/contactSection/ContactSection";
-import TestimonialsSection from "../../components/testimonials/testimonialsSection/TestimonialsSection";
+// import TestimonialsSection from "../../components/testimonials/testimonialsSection/TestimonialsSection";
 import ShootingStars from "../../components/shootingStars/ShootingStars";
-import AboutSection from "../../components/about/AboutSection/AboutSection";
+// import AboutSection from "../../components/about/AboutSection/AboutSection";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
+import ProjectComponent from "../../components/projects/projectComponent/ProjectComponent";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -50,14 +51,14 @@ const Home = () => {
               <span className={styles.NavbarText}>Contacts</span>
             </a>
           </div>
-          <h1 className={styles.NameHeading}>sudhanshu</h1>
+          <h1 className={styles.NameHeading}>Sudhanshu</h1>
           <p className={styles.Note}>
-            Hi, I am Sudhanshu a Freelance Frontend Developer cum wizard!
+            Hi, I am Sudhanshu a Frontend Developer wizard!
           </p>
         </div>
-        {/* <ProjectComponent /> */}
-        <AboutSection />
-        <TestimonialsSection />
+        <ProjectComponent />
+        {/* <AboutSection /> */}
+        {/* <TestimonialsSection /> */}
         <ContactSection />
       </div>
     </>
