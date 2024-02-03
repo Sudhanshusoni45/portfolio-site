@@ -22,7 +22,7 @@
 .Description {
   color: var(--description-grey);
   font-size: 1.5rem;
-  width: 39rem;
+  /* width: 39rem; */
 }
 .ProjectImage {
   border-radius: 10px;
@@ -44,5 +44,11 @@
   background-color: var(--white);
   padding: 0.5rem;
   height: 27px;
-  border-radius: 6px;
+  border-radius: 23px;
+}
+
+@media only screen and (max-width: 450px) {
+  .Wrapper {
+    width: 35rem;
+  }
 }

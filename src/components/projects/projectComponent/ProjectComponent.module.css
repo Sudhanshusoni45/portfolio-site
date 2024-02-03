@@ -7,10 +7,12 @@
   gap: 3rem;
 }
 .CardWrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  flex-wrap: wrap;
   column-gap: 3rem;
   row-gap: 3rem;
+  justify-content: center;
 }
 .Heading {
   font-size: 5rem;

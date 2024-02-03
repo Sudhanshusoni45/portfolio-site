@@ -1,7 +1,6 @@
-import ProjectCard from "../projectCard/projectCard";
+import ProjectCard from "../projectCard/ProjectCard";
 import rec3rd from "../../../assets/projects/rec3rd.png";
 import nikeEcomm from "../../../assets/projects/nikeEcomm.png";
-
 import styles from "./ProjectComponent.module.css";
 
 const ProjectComponent = () => {
