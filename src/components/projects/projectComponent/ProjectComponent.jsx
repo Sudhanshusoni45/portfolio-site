@@ -1,4 +1,4 @@
-import ProjectCard from "../projectCard/projectCard";
+import ProjectCard from "../projectCard/ProjectCard";
 import styles from "./ProjectComponent.module.css";
 
 const ProjectComponent = () => {
