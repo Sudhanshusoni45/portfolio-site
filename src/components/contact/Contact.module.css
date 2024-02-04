@@ -91,7 +91,11 @@
   justify-self: flex-end;
   margin-top: auto;
 }
-
+@media screen and (max-width: 1024px) {
+  .Wrapper {
+    width: 90rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .Wrapper {
     flex-direction: column;

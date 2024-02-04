@@ -11,6 +11,8 @@
 .Navbar {
   display: flex;
   gap: 1rem;
+
+  margin-right: 1rem;
 }
 .ContentWrapper {
   display: flex;

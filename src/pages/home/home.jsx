@@ -8,6 +8,7 @@ import ShootingStars from "../../components/shootingStars/ShootingStars";
 // import AboutSection from "../../components/about/AboutSection/AboutSection";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import ProjectComponent from "../../components/projects/projectComponent/ProjectComponent";
+import BlogComponent from "../../components/blogs/blogComponent/blogComponent";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -45,10 +46,10 @@ const Home = () => {
         <div className={styles.Wrapper}>
           <div className={styles.Navbar}>
             <a href="#about">
-              <span className={styles.NavbarText}>About</span>
+              <span className={styles.NavbarText}>Blog</span>
             </a>
             <a href="#contact">
-              <span className={styles.NavbarText}>Contacts</span>
+              <span className={styles.NavbarText}>Contact</span>
             </a>
           </div>
           <h1 className={styles.NameHeading}>Sudhanshu</h1>
@@ -57,6 +58,7 @@ const Home = () => {
           </p>
         </div>
         <ProjectComponent />
+        <BlogComponent />
         {/* <AboutSection /> */}
         {/* <TestimonialsSection /> */}
         <ContactSection />

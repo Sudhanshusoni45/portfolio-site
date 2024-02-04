@@ -7,14 +7,16 @@ const ProjectComponent = () => {
   const projects = [
     {
       name: "REC3RD",
-      description: "",
+      description:
+        "Rec3rd is a blazing fast new age video recording tool, start recording and directly upload your screencasts to YouTube with a single click.",
       link: "https://rec3rd.co/",
       image: rec3rd,
       tech: ["Chrome Extension", "React"],
     },
     {
       name: "Nike Ecommerce",
-      description: "",
+      description:
+        "Nike Ecommerce is a simple and elegant ecommerce app, i crafted it when i was just starting out my development journey.",
       link: "https://nike-ecomm.vercel.app/",
       image: nikeEcomm,
       tech: ["React", "Redux"],
