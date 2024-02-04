@@ -21,7 +21,9 @@ const BlogComponent = () => {
 
   return (
     <div className={styles.Wrapper}>
-      <h1 className={styles.Heading}>Blogs</h1>
+      <h1 className={styles.Heading} id="blog">
+        Blogs
+      </h1>
       <div className={styles.CardWrapper}>
         {projects.map((props) => (
           <BlogCard

@@ -45,7 +45,7 @@ const Home = () => {
         <ShootingStars />
         <div className={styles.Wrapper}>
           <div className={styles.Navbar}>
-            <a href="#about">
+            <a href="#blog">
               <span className={styles.NavbarText}>Blog</span>
             </a>
             <a href="#contact">
