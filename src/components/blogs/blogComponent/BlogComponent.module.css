@@ -5,6 +5,7 @@
   align-items: center;
   gap: 3rem;
   margin-bottom: 20rem;
+  /* max-width: 135rem; */
 }
 .CardWrapper {
   display: flex;
@@ -12,8 +13,14 @@
   flex-wrap: wrap;
   column-gap: 3rem;
   row-gap: 3rem;
-  justify-content: center;
+  /* justify-content: center; */
+  max-width: 135rem;
 }
 .Heading {
   font-size: 5rem;
+}
+@media screen and (max-width: 1290px) {
+  .CardWrapper {
+    justify-content: center;
+  }
 }
