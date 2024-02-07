@@ -9,6 +9,7 @@ import ShootingStars from "../../components/shootingStars/ShootingStars";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import ProjectComponent from "../../components/projects/projectComponent/ProjectComponent";
 import BlogComponent from "../../components/blogs/blogComponent/blogComponent";
+import Experience from "../../components/experience/experience";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -57,6 +58,7 @@ const Home = () => {
         </div>
         <ProjectComponent />
         <BlogComponent />
+        <Experience />
         {/* <AboutSection /> */}
         {/* <TestimonialsSection /> */}
         <ContactSection />

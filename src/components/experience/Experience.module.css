@@ -1,0 +1,9 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Heading {
+  font-size: 5rem;
+}
