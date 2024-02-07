@@ -1,4 +1,4 @@
-import styles from "./projectCard.module.css";
+import styles from "./ProjectCard.module.css";
 import { Chip } from "@mui/material";
 
 const ProjectCard = ({ name, description, link, image, tech }) => {
