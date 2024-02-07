@@ -1,5 +1,5 @@
 import email from "../../assets/contact/email.png";
-// import phone from "../../assets/contact/phone.png";
+// import phone from "../../assets/contact/phone.png"
 import location from "../../assets/contact/location.png";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
