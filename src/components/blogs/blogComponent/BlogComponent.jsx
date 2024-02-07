@@ -19,7 +19,7 @@ const BlogComponent = () => {
           and easy to understand manner.
         </>
       ),
-      link: "https://nike-ecomm.vercel.app/",
+      link: "https://blog.sudhanshusoni.tech/Working-of-a-Chrome-Extension-b5c6db2bd901487c94d9c3a752c5a372",
       image: chromeIcon,
       tech: ["React", "Redux"],
     },
@@ -33,7 +33,7 @@ const BlogComponent = () => {
           Read the blog to find out more.
         </>
       ),
-      link: "https://rec3rd.co/",
+      link: "https://blog.sudhanshusoni.tech/Asynchronocity-in-JS-83d0e3057cbf4c81ad332ea5bdecc584",
       image: asyncImage,
       tech: ["Chrome Extension", "React"],
     },
@@ -53,7 +53,7 @@ const BlogComponent = () => {
           Declaration → Initialization/assignment → Usage
         </>
       ),
-      link: "https://rec3rd.co/",
+      link: "https://blog.sudhanshusoni.tech/Hoisting-in-JavaScript-f45744c1a13541e59d325203ae0f889f/",
       image: hoisting,
       tech: ["Chrome Extension", "React"],
     },
@@ -71,7 +71,7 @@ const BlogComponent = () => {
           1. Pending <br /> 2. Fulfilled <br /> 3. Rejected
         </>
       ),
-      link: "https://rec3rd.co/",
+      link: "https://blog.sudhanshusoni.tech/Promise-in-JS-0e1c9a8c11b54190b82616d73fabb26f",
       image: promise,
       tech: ["Chrome Extension", "React"],
     },
