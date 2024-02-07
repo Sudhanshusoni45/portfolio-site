@@ -91,6 +91,30 @@
   justify-self: flex-end;
   margin-top: auto;
 }
+@media screen and (max-width: 1024px) {
+  .Wrapper {
+    width: 90rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Wrapper {
+    flex-direction: column;
+    height: auto;
+    width: 43rem;
+    align-items: flex-start;
+
+    padding: 4rem;
+  }
+  .Heading {
+    font-size: 2.5rem;
+  }
+  .InfoWrapper {
+    font-size: 1.5rem;
+  }
+  .Input {
+    width: 27rem;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .Wrapper {

@@ -6,11 +6,12 @@
   display: flex;
   flex-direction: column;
   background-color: var(--background-black);
-  justify-content: center;
+  /* justify-content: center; */
   gap: 2rem;
   transition: transform 0.2s;
   box-shadow: rgba(201, 201, 201, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
+  height: 50.7rem;
 }
 
 .Wrapper:hover {
@@ -45,7 +46,12 @@
   padding: 0.5rem;
   height: 27px;
   border-radius: 23px;
-  font-size: 1rem;
+}
+
+@media only screen and (max-width: 460px) {
+  .Wrapper {
+    height: 52rem;
+  }
 }
 
 @media only screen and (max-width: 450px) {
