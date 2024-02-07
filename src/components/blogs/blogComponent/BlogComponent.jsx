@@ -2,7 +2,7 @@ import chromeIcon from "../../../assets/chromeIcon.webp";
 import asyncImage from "../../../assets/asyncImage.webp";
 import hoisting from "../../../assets/hoisting.png";
 import promise from "../../../assets/promise.jpeg";
-import BlogCard from "../blogCard/blogCard";
+import BlogCard from "../blogCard/BlogCard";
 import styles from "./BlogComponent.module.css";
 
 const BlogComponent = () => {
