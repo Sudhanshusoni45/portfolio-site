@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react-swc";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), tsconfigPaths],
+  plugins: [react(), tsconfigPaths()],
   build: {
     sourcemap: true, // Enable source maps for debugging.
     minify: "esbuild", // Use esbuild for minification.
@@ -15,5 +15,4 @@ export default defineConfig({
       generateScopedName: "[name]__[local]", // This configuration disables obfuscation
     },
   },
-  // Other configuration options...
 });
