@@ -9,6 +9,8 @@ import ShootingStars from "../../components/shootingStars/ShootingStars";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import ProjectComponent from "../../components/projects/projectComponent/ProjectComponent";
 import BlogComponent from "../../components/blogs/blogComponent/BlogComponent";
+import { FaLinkedin, FaSquareGithub, FaSquareXTwitter } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -53,7 +55,47 @@ const Home = () => {
             </a>
           </div>
           <h1 className={styles.NameHeading}>Sudhanshu</h1>
+
           <p className={styles.Note}>Hi, I am Sudhanshu Frontend Engineer</p>
+          <div className={styles.SocialsWrapper}>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/sudhanshusoni__"
+            >
+              <FaSquareXTwitter
+                fontSize={"3.2rem"}
+                style={{ cursor: "pointer" }}
+              />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/Sudhanshusoni45"
+            >
+              <FaSquareGithub
+                fontSize={"3.2rem"}
+                style={{ cursor: "pointer" }}
+              />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/sudhanshusoni_"
+            >
+              <FaInstagramSquare
+                fontSize={"3.2rem"}
+                style={{ cursor: "pointer" }}
+              />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/sudhanshu-soni/"
+            >
+              <FaLinkedin fontSize={"3.2rem"} style={{ cursor: "pointer" }} />
+            </a>
+          </div>
         </div>
         <ProjectComponent />
         <BlogComponent />

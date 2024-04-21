@@ -1,7 +1,7 @@
 import email from "../../assets/contact/email.png";
 // import phone from "../../assets/contact/phone.png"
 import location from "../../assets/contact/location.png";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import styles from "./Contact.module.css";
@@ -62,6 +62,13 @@ const Contact = () => {
               fontSize={"3.2rem"}
               style={{ cursor: "pointer" }}
             />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/sudhanshu-soni/"
+          >
+            <FaLinkedin fontSize={"3.2rem"} style={{ cursor: "pointer" }} />
           </a>
         </div>
       </div>
