@@ -1,0 +1,57 @@
+.Wrapper {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 20rem;
+}
+.CardWrapper {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  flex-wrap: wrap;
+  column-gap: 3rem;
+  row-gap: 3rem;
+  justify-content: center;
+}
+.Heading {
+  font-size: 5rem;
+}
+
+.ImgBackground {
+  background-color: white;
+  border-radius: 100%;
+  padding: 8px;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Logo {
+  border-radius: 100%;
+  width: 5rem;
+  height: 5rem;
+}
+.CompanyWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Company {
+  display: flex;
+  gap: 2rem;
+}
+.Post {
+  font-size: 2rem;
+}
+.CompanyName {
+  font-size: 1.3rem;
+}
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

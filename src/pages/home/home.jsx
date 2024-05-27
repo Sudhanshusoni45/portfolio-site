@@ -11,6 +11,7 @@ import ProjectComponent from "../../components/projects/projectComponent/Project
 import BlogComponent from "../../components/blogs/blogComponent/BlogComponent";
 import { FaLinkedin, FaSquareGithub, FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
+import ExperienceComponent from "@components/experience/ExperienceComponent";
 
 const Home = () => {
   const { width } = useWindowDimensions();
@@ -98,9 +99,8 @@ const Home = () => {
           </div>
         </div>
         <ProjectComponent />
+        <ExperienceComponent />
         <BlogComponent />
-        {/* <AboutSection /> */}
-        {/* <TestimonialsSection /> */}
         <ContactSection />
       </div>
     </>

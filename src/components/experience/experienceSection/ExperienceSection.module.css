@@ -1,0 +1,16 @@
+.Wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 10rem;
+}
+.Heading {
+  font-size: 5rem;
+}
+@media screen and (max-width: 480px) {
+  .Wrapper {
+    margin-top: 20rem;
+  }
+}
