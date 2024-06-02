@@ -2,6 +2,7 @@ import chromeIcon from "../../../assets/chromeIcon.webp";
 import asyncImage from "../../../assets/asyncImage.webp";
 import hoisting from "../../../assets/hoisting.png";
 import promise from "../../../assets/promise.jpeg";
+import flexiple from "../../../assets/blog/flexiple.jpg";
 import BlogCard from "../blogCard/BlogCard";
 import styles from "./BlogComponent.module.css";
 
@@ -22,6 +23,26 @@ const BlogComponent = () => {
       link: "https://blog.sudhanshusoni.tech/Working-of-a-Chrome-Extension-b5c6db2bd901487c94d9c3a752c5a372",
       image: chromeIcon,
       tech: ["React", "Redux"],
+    },
+    {
+      name: "Interview with Flexiple",
+      description: (
+        <>
+          I recently did an interview with Flexiple about my experiences as a
+          Software Engineer.
+          <br />
+          <br />
+          I have discussed my day-to-day as a Software Engineer, working at
+          startups, assessing job offers, avoiding burnout.
+          <br />
+          <br />I also discuss important considerations when evaluating job
+          opportunities beyond just salary, such as ESOPs, company culture and
+          more.
+        </>
+      ),
+
+      link: "https://flexiple.com/software-engineer/engineer-interview-sudhanshu-soni",
+      image: flexiple,
     },
     {
       name: "Asynchronocity in JavaScript",
@@ -88,6 +109,7 @@ const BlogComponent = () => {
             // name={name}
             // description={description}
             // link={link}
+            // eslint-disable-next-line react/prop-types
             key={props.name}
             {...props}
           />
