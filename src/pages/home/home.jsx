@@ -31,7 +31,7 @@ const Home = () => {
           speed: [0, 0.3],
           // -17 just to get rid of x scrollbar
           width: width > 480 ? width - 17 : width,
-          height: width > 480 ? 4500 : 6000,
+          height: document.body.scrollHeight + 200,
           starColor: "white",
         });
       }
