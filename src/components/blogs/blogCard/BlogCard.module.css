@@ -50,7 +50,7 @@
 
 @media only screen and (max-width: 460px) {
   .Wrapper {
-    height: 52rem;
+    height: auto;
   }
 }
 
