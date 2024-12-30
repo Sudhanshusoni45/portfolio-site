@@ -47,11 +47,18 @@ const Home = () => {
         <ShootingStars />
         <div className={styles.Wrapper}>
           <div className={styles.Navbar}>
-            <a href="https://blog.sudhanshusoni.tech">
+            <a href="https://blog.sudhanshusoni.co">
               <span className={styles.NavbarText}>Blog</span>
             </a>
             <a href="#contact">
               <span className={styles.NavbarText}>Contact</span>
+            </a>
+            <a
+              href="https://stack.sudhanshusoni.co/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span className={styles.NavbarText}>Uses</span>
             </a>
           </div>
           <h1 className={styles.NameHeading}>Sudhanshu</h1>

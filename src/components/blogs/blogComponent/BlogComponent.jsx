@@ -54,7 +54,7 @@ const BlogComponent = () => {
           Read the blog to find out more.
         </>
       ),
-      link: "https://blog.sudhanshusoni.tech/Asynchronocity-in-JS-83d0e3057cbf4c81ad332ea5bdecc584",
+      link: "https://sudhanshusoni.hashnode.dev/asynchronocity-in-js",
       image: asyncImage,
       tech: ["Chrome Extension", "React"],
     },
@@ -74,7 +74,7 @@ const BlogComponent = () => {
           Declaration → Initialization/assignment → Usage
         </>
       ),
-      link: "https://blog.sudhanshusoni.tech/Hoisting-in-JavaScript-f45744c1a13541e59d325203ae0f889f/",
+      link: "https://sudhanshusoni.hashnode.dev/hoisting",
       image: hoisting,
       tech: ["Chrome Extension", "React"],
     },
@@ -92,7 +92,7 @@ const BlogComponent = () => {
           1. Pending <br /> 2. Fulfilled <br /> 3. Rejected
         </>
       ),
-      link: "https://blog.sudhanshusoni.tech/Promise-in-JS-0e1c9a8c11b54190b82616d73fabb26f",
+      link: "https://sudhanshusoni.hashnode.dev/promise-in-js",
       image: promise,
       tech: ["Chrome Extension", "React"],
     },
